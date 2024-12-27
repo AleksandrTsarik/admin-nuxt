@@ -1,0 +1,42 @@
+@import '_fonts';
+@import '_settings';
+
+body {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  min-width: 300px;
+  font-size: 16px;
+  background-color: #EEF0ED;
+  .v-application__wrap {
+    background-color: #EEF0ED;
+  }
+}
+.page-wrap {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  main {
+    flex-grow: 1;
+    background-color: #EEF0ED;
+  }
+}
+// main {
+//   width: 100%!important;
+// }
+.wrapper {
+  padding: 0 20px;
+  // margin: 0 auto;
+}
+
+
+:root {
+  --white: #fff;
+  --black: #000;
+  --text: #000;
+  --btn: #069ABB;
+  --strip: #8B8686;
+  --bg: #D9D9D9;
+  --menuNav: #171717;
+}
